@@ -6,6 +6,6 @@ class TodoListTest < ActiveSupport::TestCase
   # end
   test 'my_name' do
     t = TodoList.new
-    expect(t.name('KashyapSodha')).to be true
+    expect(t.name('Kashyap')).to be true
   end
 end
